@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/java/model/User.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>102</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/UserDiary.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/controller/SignUpServlet.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/User.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/StaffDB.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/Staff.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/Human.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/UserDB.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/DatabaseInfo.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/VaccineType.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/Counter.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/ScheduleDB.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/VaccineSite.java</file>
+            <file>file:/D:/FPT/PRJ301/Final%20Project/VCS_Web/src/java/model/Vaccine.java</file>
+        </group>
+    </open-files>
+</project-private>

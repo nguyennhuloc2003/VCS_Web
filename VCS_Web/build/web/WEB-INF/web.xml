@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <listener>
+        <description>ServletContextListener, ServletContextAttributeListener, HttpSessionListener, HttpSessionAttributeListener, RequestListener, RequestAttributeListener</description>
+        <listener-class>controller.AppListener</listener-class>
+    </listener>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <servlet>
+        <servlet-name>SignUpVCS</servlet-name>
+        <servlet-class>controller.SignUpVCS</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListVCS</servlet-name>
+        <servlet-class>controller.ListVCS</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListVCSs</servlet-name>
+        <servlet-class>controller.ListVCSs</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUpVCS</servlet-name>
+        <url-pattern>/signupVCS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListVCS</servlet-name>
+        <url-pattern>/listVCS</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListVCSs</servlet-name>
+        <url-pattern>/listVCSs</url-pattern>
+    </servlet-mapping>
+    
+    <filter-name>AuthenticationFilter</filter-name>
+    <filter-class>controller.AuthenticationFilter</filter-class>
+    <filter-mapping>
+        <filter-name>AuthenticationFilter</filter-name>
+        <servlet-name>SignUpVCS</servlet-name>
+        <servlet-name>ListVCS</servlet-name>
+    </filter-mapping>
+</web-app>
